@@ -10,6 +10,7 @@ import Orders from './pages/Orders'
 import Product from './pages/Product'
 import PlaceOrder from './pages/PlaceOrder'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 
 
@@ -31,6 +32,7 @@ const App = () => {
         <Route path="/place-order" element={<PlaceOrder/>} />
 
       </Routes>
+      <Footer/>
 
 
     </div>
