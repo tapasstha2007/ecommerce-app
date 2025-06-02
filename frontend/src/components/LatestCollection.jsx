@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { ShopContext } from '../context/ShopContext';
 import Title from './Title';
-import ProdctItems from './ProdctItems';
+import ProdctItems from './ProductItems';
 
 const LatestCollection = () => {
 
