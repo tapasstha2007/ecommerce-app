@@ -30,8 +30,8 @@ const Product = () => {
   return productData? (
     <div className='border-t-2 pt-10 transition-oppacity ease-in duration-500 opacity-100'>
       <div className='flex gap-12 sm:gap-12 flex-col sm:flex-row'>
-        <div className='flex-1 flex flex-col-reverse gap-3 sm:flex-row'>
-        <div className='flex sm:flex-col overflow-x-auto sm:overflow-y-scroll justify-between sm:justify-normal sm:w-[18.7%] w-full'>
+        <div className='flex-1 flex flex-col gap-3 sm:flex-row'>
+        <div className='flex  sm:flex-col overflow-x-auto sm:overflow-y-scroll justify-between sm:justify-normal sm:w-[18.7%] w-full'>
         {productData.image.map((item,index)=>(
          <img onClick={()=>setimage(item)} src={item} key={index} className='w-[24%] sm:w-full sm:mb-3 flex-shrink-0 cursor-pointer' />
          ))
